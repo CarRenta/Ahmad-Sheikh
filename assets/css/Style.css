@@ -782,7 +782,7 @@ content: '';
 
 }
 .project-bg{
-    background-color: hsl(230,69%,61% );
+    background-color: black;
     padding-top: 3rem;
 }
 .project-tittle{
@@ -797,7 +797,7 @@ content: '';
     color: #fff;
 }
 .project-image{
-    width: 232px;
+    width: 132px;
     justify-self: center;
 }
 .button-white{
