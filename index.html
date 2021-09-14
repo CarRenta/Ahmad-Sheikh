@@ -1024,14 +1024,15 @@ padding: .25rem .5rem .5rem 0;
 }
 
 
-    
+/* .skills-content{
+    grid-template-columns: repeat(1,160px);
+ justify-content: center;
+} */
+.flexa{
+  margin: 0px 14%;
 
-.skills-container {
-   
-    display: flex;
-    justify-content: center;
-}
 
+} 
 #second{
 display: none;
 }
@@ -1077,7 +1078,42 @@ margin-left: 10%;
 grid-template-columns: repeat(2,1fr);
 }
 }
+
+@media only screen and (min-width:350px){
+
+
+    .flexa{
+        margin: 0 16%;
+    }
+
+    
+
+
+
+
+
+
+
+}
+
+
 @media only screen and (min-width:768px){
+
+
+    .skills-content{
+   
+ justify-content: center;
+ margin: 0px 3%;
+width: 270px;
+
+}
+.flexa{
+    display: flex;
+ 
+ justify-content: center;
+
+ margin: 0px 0px !important;
+}
 
 
 .footer-links{
@@ -1158,8 +1194,7 @@ column-gap: 5rem;
 .about-image{
 width: 300px;
 height: 300px;
-border-radius: 50%;
-border: black 1px solid;
+
 }
 .about-description{
 text-align: initial;
@@ -1324,6 +1359,9 @@ padding: 3rem 0 3.5rem;
 
 @media only screen and (max-width:350px){
 
+
+    
+
 #first{
     display: none;
 }
@@ -1409,6 +1447,18 @@ font-size: 45px;
 
 
 
+    
+  
+    .skills-content{
+   
+   justify-content: center;
+   margin: 0px 3%;
+   width: 400px;
+  
+  }
+
+
+
 
 :root{
 
@@ -1426,10 +1476,7 @@ font-size: 45px;
 
 }
 
-.flexa{
 
-    
-}
 
 
     </style>
@@ -2293,7 +2340,7 @@ font-size: 45px;
 
                 </div>
 
-                <div class="swiper-pagination"></div>
+               
 
             </div>
 
@@ -2460,7 +2507,7 @@ font-size: 45px;
                 </div>
 
             </div>
-            <div class="swiper-pagination"></div>
+            
         </div>
     </section>
 
