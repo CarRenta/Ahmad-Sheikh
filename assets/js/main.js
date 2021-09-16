@@ -264,31 +264,31 @@ window.onclick = function(event) {
 
 
 
-    var modal = document.getElementById("myModal");
+    // var modal = document.getElementById("myModal");
     
     // Get the button that opens the modal
-    var btn = document.getElementById("myBtn");
+    // var btn = document.getElementById("myBtn");
     
     // Get the <span> element that closes the modal
-    var span = document.getElementsByClassName("bi bi-x-lg service-modal-close")[0];
+    // var span = document.getElementsByClassName("bi bi-x-lg service-modal-close")[0];
     
     // When the user clicks the button, open the modal 
-    btn.onclick = function() {
-      modal.style.visibility= 'visible';
+    // btn.onclick = function() {
+    //   modal.style.visibility= 'visible';
 
-    }
+    // }
     
     // When the user clicks on <span> (x), close the modal
-    function am() {
-      modal.style.visibility = "hidden";
-    }
+    // function am() {
+    //   modal.style.visibility = "hidden";
+    // }
     
     // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function(event) {
-      if (event.target == modal) {
-        modal.style.visibility = "hidden";
-      }
-    }
+    // window.onclick = function(event) {
+    //   if (event.target == modal) {
+    //     modal.style.visibility = "hidden";
+    //   }
+    // }
 
 
 
